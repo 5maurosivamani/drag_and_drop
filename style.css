@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  background-color: black;
+  color: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.game-board {
+  height: 400px;
+  width: 400px;
+  border: 10px solid rgb(255, 162, 108);
+
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.square {
+  height: 100px;
+  width: 100px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bisque {
+  background-color: bisque;
+}
+
+.brown {
+  background-color: brown;
+}
+
+.chess-piece {
+  height: 80px;
+  width: 80px;
+}
+
+.highlight {
+  background-color: yellow;
+}
+
+.target{
+    border: 10px solid greenyellow;
+}
